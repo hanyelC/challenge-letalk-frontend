@@ -22,11 +22,18 @@ export default createGlobalStyle`
     font-family: 'Open Sans', sans-serif;
     font-size: 1.6rem;
     outline: none;
+    border: none;
   }
 
   button {
     cursor: pointer;
     transition: filter 0.2s;
+    color: #fff;
+    padding: 1.1rem;
+  }
+
+  button:focus {
+    border: 1px solid gray;
   }
 
   a:hover, button:hover {
